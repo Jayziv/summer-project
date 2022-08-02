@@ -1,0 +1,137 @@
+{
+  "main": {
+    "id": "b37e304c2e6bd85a",
+    "type": "split",
+    "children": [
+      {
+        "id": "d07c0c2963050a1e",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "blog-articles/blog-article-1.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a380813e5874f895",
+    "type": "split",
+    "children": [
+      {
+        "id": "02d6d5083d55bb43",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0ad784d7c62129e9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "1ed9af97514528f4",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "2b7cbfa043a4900e",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "e34c33d26d3d96cd",
+    "type": "split",
+    "children": [
+      {
+        "id": "9be15cdfb9f30075",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ec44b06362cafc78",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "blog-articles/blog-article-1.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "29ebd8c79397d3d5",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "blog-articles/blog-article-1.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "3de023f0ee64bf76",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "aa4d67bb98de05e7",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "blog-articles/blog-article-1.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "0ad784d7c62129e9",
+  "lastOpenFiles": [
+    "Pasted image 20220803000449.png.md",
+    "blog-articles/blog-article-1.md",
+    "Pasted image 20220803000449.png"
+  ]
+}
