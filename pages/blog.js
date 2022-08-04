@@ -14,7 +14,7 @@ export default function Blog({posts}){
 
             //JSX for individual blog listing
             return <article key={title}>
-                <Link href={`/posts/articles/${slug}`}>
+                <Link href={`/posts/${slug}`}>
                     <h1>{title}</h1>
                 </Link>
                 <h3>{author}</h3>
