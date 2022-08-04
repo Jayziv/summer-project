@@ -14,7 +14,7 @@ export default function Blog({posts}){
 
             //JSX for individual blog listing
             return <article key={title}>
-                <Link href={`/posts/${slug}`}>
+                <Link href={`/posts/articles/${slug}`}>
                     <h1>{title}</h1>
                 </Link>
                 <h3>{author}</h3>
@@ -24,16 +24,15 @@ export default function Blog({posts}){
     </main>
 }
 
-
 //Generating the Static Props for the Blog Page
 export async function getStaticProps(){
     // get list of files from the posts folder
-    const files = fs.readdirSync('posts');
+    const files = fs.readdirSync('posts/articles');
 
     // get frontmatter & slug from each post
     const posts = files.map((fileName) => {
         const slug = fileName.replace('.md', '');
-        const readFile = fs.readFileSync(`posts/${fileName}`, 'utf-8');
+        const readFile = fs.readFileSync(`posts/articles/${fileName}`, 'utf-8');
         const { data: frontmatter } = matter(readFile);
         
         return {

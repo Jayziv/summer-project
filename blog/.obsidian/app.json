@@ -1,7 +1,7 @@
 {
   "showFrontmatter": true,
   "useMarkdownLinks": true,
-  "attachmentFolderPath": "./blog-images",
+  "attachmentFolderPath": "blog-images",
   "alwaysUpdateLinks": true,
   "promptDelete": false
 }

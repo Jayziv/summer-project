@@ -1,20 +1,13 @@
 ---
-title: "Creating a basic blog with NextJS"
-author: "Jay Nicol-Smith"
-category: "learning"
-date: "2022-08-03"
-bannerImage: "article-1-header.png"
+title: "This is an example post"
+author: "Alex Merced"
+category: "example"
+date: "2022-03-13"
+bannerImage: "url-to-image.png"
 tags:
-    - learning
-    - nextjs
-    - blog
-    - markup
+    - example
 ---
-## This is my first blog post written in an obsidian template
-I have created this blog in order to help me document my various creations, personal and professional alike.
 
+## This is an example blog post
 
-
-![](Pasted%20image%2020220803000631.png)
-
-![](Pasted%20image%2020220803013730.png)
+This is sample content. The section above is called Frontmatter where we can add post metadata like title and author. You can add as little or as many properties in the frontmatter using YAML syntax.
