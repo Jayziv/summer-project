@@ -1,5 +1,16 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+
+---
+
+This is the start of blog functionality, designed to be used with obsidian.md as my note and blog software of choice.
+Currently you can create a markdown document and it will be hosted as an individual post page.
+
+To do -
+   image support in post content 
+
+---
+
 ## Getting Started
 
 First, run the development server:
