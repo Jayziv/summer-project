@@ -1,15 +1,15 @@
 {
   "main": {
-    "id": "b37e304c2e6bd85a",
+    "id": "2d6c32601a336240",
     "type": "split",
     "children": [
       {
-        "id": "63295b768ac025c6",
+        "id": "aca9bec5a018c530",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "blog-articles/blog-article-1.md",
+            "file": "articles/05-08-2022.md",
             "mode": "source",
             "source": false
           }
@@ -19,15 +19,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "a380813e5874f895",
+    "id": "4bca81c0c11114ce",
     "type": "split",
     "children": [
       {
-        "id": "02d6d5083d55bb43",
+        "id": "c0fa7005a6222136",
         "type": "tabs",
         "children": [
           {
-            "id": "0ad784d7c62129e9",
+            "id": "9ccecf4b6d41e555",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -35,7 +35,7 @@
             }
           },
           {
-            "id": "1ed9af97514528f4",
+            "id": "0ba0c03b8c617a05",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -50,7 +50,7 @@
             }
           },
           {
-            "id": "2b7cbfa043a4900e",
+            "id": "c72d783805ba2415",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -64,20 +64,20 @@
     "width": 300
   },
   "right": {
-    "id": "e34c33d26d3d96cd",
+    "id": "a53e83f448b19a7a",
     "type": "split",
     "children": [
       {
-        "id": "9be15cdfb9f30075",
+        "id": "7089a601785cf38a",
         "type": "tabs",
         "children": [
           {
-            "id": "ec44b06362cafc78",
+            "id": "6f687b5f9d8c1937",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "blog-articles/blog-article-1.md",
+                "file": "articles/05-08-2022.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,19 +89,19 @@
             }
           },
           {
-            "id": "29ebd8c79397d3d5",
+            "id": "c60af5ac5107642b",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "blog-articles/blog-article-1.md",
+                "file": "articles/05-08-2022.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "3de023f0ee64bf76",
+            "id": "dc6abde3d9a3b3ec",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -112,12 +112,12 @@
             }
           },
           {
-            "id": "aa4d67bb98de05e7",
+            "id": "30fd598e1b5b1bfc",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "blog-articles/blog-article-1.md"
+                "file": "articles/05-08-2022.md"
               }
             }
           }
@@ -128,11 +128,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "63295b768ac025c6",
+  "active": "aca9bec5a018c530",
   "lastOpenFiles": [
-    "blog-images/Pasted image 20220803000631.png",
-    "blog-articles/blog-article-1.md",
-    "Pasted image 20220803000449.png.md",
-    "Pasted image 20220803000449.png"
+    "articles/07-08-2022.md",
+    "articles/example-post22.md",
+    "articles/example-post.md",
+    "articles/blog-article-1-docker - Copy.md",
+    "articles/05-08-2022.md",
+    "images/Pasted image 20220806180144.png",
+    "images/Pasted image 20220806180428.png",
+    "images/Pasted image 20220806180536.png",
+    "images/Pasted image 20220807234433.png",
+    "images/Pasted image 20220807234526.png"
   ]
 }

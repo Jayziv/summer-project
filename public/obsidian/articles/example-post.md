@@ -1,9 +1,9 @@
 ---
 title: "This is an example post"
-author: "Alex Merced"
+author: "Jay"
 category: "example"
-date: "2022-03-13"
-bannerImage: "url-to-image.png"
+date: "06-08-2022"
+bannerImage: "dasd"
 tags:
     - example
 ---

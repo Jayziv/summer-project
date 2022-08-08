@@ -5,20 +5,29 @@ import Link from 'next/link';
 
 // The Blog Page Content
 export default function Blog({posts}){
-    return <main>
+    return <main className="bg-red-500 columns-3 gap-8 rounded">
         {posts.map(post => {
             //extract slug and frontmatter
             const {slug, frontmatter} = post
             //extract frontmatter properties
-            const {title, author, category, date, bannerImage, tags} = frontmatter
+            var {title, author, category, date, bannerImage, tags} = frontmatter
+            bannerImage = "/obsidian/images/" + bannerImage + ".png"
 
             //JSX for individual blog listing
-            return <article key={title}>
+            return <article key={title} className="p-5 text-white">
                 <Link href={`/posts/${slug}`}>
-                    <h1>{title}</h1>
+                    <div className="cursor-pointer bg-white text-black inline-block rounded overflow-hidden	">
+                        <img className="w-full" src={bannerImage}/>
+                        <div className="p-5">
+                            <h2 className="font-bold">{title}</h2>
+                            <h3>{author}</h3>
+                            <h3 className="italic mt-4 text-right">{date}</h3>
+                        </div>
+                       
+                    </div>
+                    
                 </Link>
-                <h3>{author}</h3>
-                <h3>{date}</h3>
+               
             </article>
         })}
     </main>
@@ -27,12 +36,12 @@ export default function Blog({posts}){
 //Generating the Static Props for the Blog Page
 export async function getStaticProps(){
     // get list of files from the posts folder
-    const files = fs.readdirSync('posts/articles');
+    const files = fs.readdirSync('public/obsidian/articles');
 
     // get frontmatter & slug from each post
     const posts = files.map((fileName) => {
         const slug = fileName.replace('.md', '');
-        const readFile = fs.readFileSync(`posts/articles/${fileName}`, 'utf-8');
+        const readFile = fs.readFileSync(`public/obsidian/articles/${fileName}`, 'utf-8');
         const { data: frontmatter } = matter(readFile);
         
         return {
