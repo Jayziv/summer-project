@@ -1,23 +1,34 @@
 import fs from "fs";
 import matter from "gray-matter";
-import md from 'markdown-it';
 
+// enable html - oh no
+var md = require('markdown-it')({
+  html: true,
+});
 
 // The page for each post
 export default function Post({frontmatter, content}) {
 
     var {title, author, category, date, bannerImage, tags} = frontmatter
-    bannerImage = "/obsidian/images/" + bannerImage + ".png"
+
+    var bannerImageStripped = bannerImage.replace("![[", "/obsidian/images/");
+    var bannerImageStripped = bannerImageStripped.replace("]]", "");
+    var bannerImage = bannerImageStripped
+  
+    // bannerImage = "/obsidian/images/" + bannerImage + ".png"
 
     var strippedContent = content.replace("![[", "<img className='w-full' src='/obsidian/images/");
     var strippedContent = strippedContent.replace("]]", "' />")
 
-    return <main>
-        <img src={bannerImage}/>
-        <h1 className="font-bold text-2xl mb-2">{title}</h1>
-        <h2 className="text-xl mb-2">{author} || {date}</h2>
-        <h3 className="mb-6">{category} || {tags.join()}</h3>
-        <div dangerouslySetInnerHTML={{ __html: md().render(strippedContent) }} />
+    return <main className="w-2/3 flex flex-col align-middle justify-center self-auto mx-auto text-slate-300">
+       
+          <img className="mb-10" src={bannerImage}/>
+          <h1 className="font-bold text-2xl mb-2 mx-auto">{title}</h1>
+          <h2 className="text-xl mb-2">Written by: {author} || Creation date: {date}</h2>
+
+          <h3 className="mb-6">Category: {category}  Tags: {tags.join()}</h3>
+          <div dangerouslySetInnerHTML={{ __html: md.render(strippedContent) }} />
+        
     </main>
 }
 

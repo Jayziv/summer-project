@@ -3,7 +3,7 @@ title: "Blog Article 2 - Docker"
 author: "Jay"
 category: "Docker"
 date: "06-08-2022"
-bannerImage: "Pasted image 20220806180536"
+bannerImage: "![[Pasted image 20220806180536.png]]"
 tags:
     - docker
 ---

@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "articles/05-08-2022.md",
+            "file": "articles/07-08-2022.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "articles/05-08-2022.md",
+                "file": "articles/07-08-2022.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "articles/05-08-2022.md",
+                "file": "articles/07-08-2022.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "articles/05-08-2022.md"
+                "file": "articles/07-08-2022.md"
               }
             }
           }
@@ -130,15 +130,15 @@
   },
   "active": "aca9bec5a018c530",
   "lastOpenFiles": [
-    "articles/07-08-2022.md",
-    "articles/example-post22.md",
-    "articles/example-post.md",
-    "articles/blog-article-1-docker - Copy.md",
     "articles/05-08-2022.md",
-    "images/Pasted image 20220806180144.png",
-    "images/Pasted image 20220806180428.png",
+    "articles/07-08-2022.md",
+    "articles/08-08-2022.md",
+    "images/Pasted image 20220807234609.png",
     "images/Pasted image 20220806180536.png",
-    "images/Pasted image 20220807234433.png",
-    "images/Pasted image 20220807234526.png"
+    "images/Pasted image 20220806180428.png",
+    "images/Pasted image 20220806180144.png",
+    "articles/blog-article-1-docker - Copy.md",
+    "articles/example-post.md",
+    "Templates/-Template-Article.md"
   ]
 }
