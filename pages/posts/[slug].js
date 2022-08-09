@@ -22,12 +22,12 @@ export default function Post({frontmatter, content}) {
 
     return <main className="w-2/3 flex flex-col align-middle justify-center self-auto mx-auto text-slate-300">
        
-          <img className="mb-10" src={bannerImage}/>
-          <h1 className="font-bold text-2xl mb-2 mx-auto">{title}</h1>
-          <h2 className="text-xl mb-2">Written by: {author} || Creation date: {date}</h2>
+      <img className="mb-10 object-cover" src={bannerImage}/>
+      <h1 className="font-bold text-2xl mb-2 mx-auto">{title}</h1>
+      <h2 className="text-xl mb-2">Written by: {author} || Creation date: {date}</h2>
 
-          <h3 className="mb-6">Category: {category}  Tags: {tags.join()}</h3>
-          <div dangerouslySetInnerHTML={{ __html: md.render(strippedContent) }} />
+      <h3 className="mb-6">Category: {category}  Tags: {tags.join()}</h3>
+      <div dangerouslySetInnerHTML={{ __html: md.render(strippedContent) }} />
         
     </main>
 }

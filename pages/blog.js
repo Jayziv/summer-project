@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 // The Blog Page Content
 export default function Blog({posts}){
-    return <main className="columns-3 gap-8 overflow-hidden py-4 bg-slate-800 rounded border-solid border border-slate-700">
+    return <main className="columns-3 gap-8 overflow-hidden py-4 bg-slate-800 rounded border-solid border border-slate-700 px-60">
         {posts.map(post => {
             //extract slug and frontmatter
             const {slug, frontmatter} = post
@@ -17,7 +17,7 @@ export default function Blog({posts}){
             var bannerImage = bannerImageStripped
 
             //JSX for individual blog listing
-            return <article key={title} className="p-5 text-white">
+            return <article key={title} className="p-5 text-white ">
                 <Link href={`/posts/${slug}`}>
                     <div className="cursor-pointer bg-slate-900 text-white inline-block rounded overflow-hidden	border hover:border border-transparent hover:border-slate-600">
                         <img className="w-full" src={bannerImage}/>

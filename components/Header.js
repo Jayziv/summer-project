@@ -9,8 +9,8 @@ const navigationPages = [
 function Header (props){
     return  (
     
-        <div className="py-6 flex flex-row ">
-            <div className="overflow-hidden py-4 bg-slate-800 rounded border-solid border border-slate-700">
+        <div className="absolute left-0 top-0 flex flex-column">
+            <div className="flex flex-col overflow-hidden py-4 bg-slate-800 rounded ">
                 {navigationPages.map(page => {
                     const { title, href } = page
 
@@ -18,8 +18,8 @@ function Header (props){
                     href={href}
                     key={title}>
                         <a
-                        className="px-6 py-5 text-slate-300 hover:text-slate-100 hover:bg-slate-700"
-                        >{title}</a>
+                        className="px-6 py-5 text-slate-300 hover:text-slate-100 hover:bg-slate-700 border-r border-solid border-transparent hover:border-slate-400">
+                        {title}</a>
                     </Link>
                 })}
             </div>       
