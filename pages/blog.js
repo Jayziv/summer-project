@@ -6,7 +6,7 @@ import Link from 'next/link';
 // The Blog Page Content
 export default function Blog({posts}){
     return <main className="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-1 overflow-hidden py-4 bg-slate-800 rounded border-solid border border-slate-700 px-2">
-        {posts.map(post => {
+        {posts.reverse().map(post => {
             //extract slug and frontmatter
             const {slug, frontmatter} = post
             //extract frontmatter properties

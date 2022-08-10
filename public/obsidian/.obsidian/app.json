@@ -1,4 +1,5 @@
 {
   "attachmentFolderPath": "images",
-  "promptDelete": false
+  "promptDelete": false,
+  "fileSortOrder": "alphabeticalReverse"
 }
