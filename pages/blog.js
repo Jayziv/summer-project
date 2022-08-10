@@ -17,9 +17,9 @@ export default function Blog({posts}){
             var bannerImage = bannerImageStripped
 
             //JSX for individual blog listing
-            return <article key={title} className="p-3 text-white ">
+            return <article key={title} className="p-3 text-white drop-shadow-lg hover:drop-shadow-xl transition duration-150 ease-out hover:ease-in">
                 <Link href={`/posts/${slug}`}>
-                    <div className="cursor-pointer bg-slate-900 text-white inline-block rounded overflow-hidden	border hover:border border-transparent hover:border-slate-600">
+                    <div className="cursor-pointer bg-slate-700 text-white inline-block rounded overflow-hidden	border hover:border border-transparent hover:border-slate-600">
                         <img className="w-screen" src={bannerImage}/>
                         <div className="p-5 text-slate-300">
                             <h2 className="font-bold">{title}</h2>
