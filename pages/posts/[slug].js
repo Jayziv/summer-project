@@ -55,8 +55,6 @@ export async function getStaticProps({ params: { slug } }) {
     const fileName = fs.readFileSync(`public/obsidian/articles/${slug}.md`, 'utf-8');
     var { data: frontmatter, content } = matter(fileName);
 
-
-
     return {
       props: {
         frontmatter,

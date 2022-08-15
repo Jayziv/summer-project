@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "articles/10-08-2022.md",
+            "file": "articles/14-08-2022.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "articles/10-08-2022.md",
+                "file": "articles/14-08-2022.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "articles/10-08-2022.md",
+                "file": "articles/14-08-2022.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "articles/10-08-2022.md"
+                "file": "articles/14-08-2022.md"
               }
             }
           }
@@ -128,17 +128,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "aca9bec5a018c530",
+  "active": "9ccecf4b6d41e555",
   "lastOpenFiles": [
-    "articles/05-08-2022.md",
-    "articles/blog-article-1-docker - Copy.md",
-    "articles/10-08-2022.md",
-    "articles/08-08-2022.md",
+    "images/dalle-4.png",
+    "articles/14-08-2022.md",
+    "images/dalle-3.png",
+    "articles/13-08-2022.md",
     "articles/07-08-2022.md",
-    "images/Pasted image 20220807234609.png",
-    "images/Pasted image 20220806180536.png",
-    "images/Pasted image 20220806180428.png",
-    "images/Pasted image 20220806180144.png",
-    "articles/example-post.md"
+    "images/dalle-2.png",
+    "templates/-Template-Article.md",
+    "articles/10-08-2022.md",
+    "articles/05-08-2022.md",
+    "articles/08-08-2022.md"
   ]
 }

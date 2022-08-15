@@ -1,5 +1,16 @@
 @tailwind base;
 @tailwind components;
+.container-card {
+  @apply container mx-auto gap-1 overflow-hidden py-4 bg-slate-800 rounded border-solid border border-slate-700 px-2;
+}
+
+.grid-1234 {
+  @apply grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4;
+}
+
+.image-card-p-2 {
+  @apply cursor-pointer bg-slate-700 text-white inline-block rounded overflow-hidden border hover:border border-transparent hover:border-slate-600 m-4;
+}
 @tailwind utilities;
 
 html,
