@@ -9,7 +9,6 @@ import rehypeRaw from "rehype-raw";
 export default function Post({frontmatter, content}) {
 
     var {title, author, category, date, bannerImage, tags} = frontmatter
-
     var bannerImageStripped = bannerImage.replace("![[", "/obsidian/images/");
     var bannerImageStripped = bannerImageStripped.replace("]]", "");
     var bannerImage = bannerImageStripped
@@ -27,7 +26,7 @@ export default function Post({frontmatter, content}) {
 
       <h3 className="mb-6">Category: {category}  Tags: {tags.join()}</h3>
       
-      <ReactMarkdown children={strippedContent} rehypePlugins={[rehypeRaw]}></ReactMarkdown>
+      <ReactMarkdown rehypePlugins={[rehypeRaw]}>{strippedContent}</ReactMarkdown>
         
     </main>
 }
