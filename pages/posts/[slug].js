@@ -1,6 +1,7 @@
 import fs from "fs";
 import matter from "gray-matter";
 import ReactMarkdown from "react-markdown";
+import rehypeRaw from "rehype-raw";
 
 
 
@@ -26,7 +27,7 @@ export default function Post({frontmatter, content}) {
 
       <h3 className="mb-6">Category: {category}  Tags: {tags.join()}</h3>
       
-      <ReactMarkdown children={content}></ReactMarkdown>
+      <ReactMarkdown children={strippedContent} rehypePlugins={[rehypeRaw]}></ReactMarkdown>
         
     </main>
 }
