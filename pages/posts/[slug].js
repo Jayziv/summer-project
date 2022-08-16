@@ -1,10 +1,8 @@
 import fs from "fs";
 import matter from "gray-matter";
+import ReactMarkdown from "react-markdown";
 
-// enable html - oh no
-var md = require('markdown-it')({
-  html: true,
-});
+
 
 // The page for each post
 export default function Post({frontmatter, content}) {
@@ -27,7 +25,8 @@ export default function Post({frontmatter, content}) {
       <h2 className="text-xl mb-2">Written by: {author} || Creation date: {date}</h2>
 
       <h3 className="mb-6">Category: {category}  Tags: {tags.join()}</h3>
-      <div dangerouslySetInnerHTML={{ __html: md.render(strippedContent) }} />
+      
+      <ReactMarkdown children={content}></ReactMarkdown>
         
     </main>
 }

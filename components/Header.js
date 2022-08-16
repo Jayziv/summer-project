@@ -1,8 +1,9 @@
 import Link from "next/link"
+import Head from "next/head"
 
 const navigationPages = [
     { key: 'home', title: 'Home', href: '/', alt: 'Navigate to the homepage' },
-    { key: 'projekts', title: 'Projects', href: '/projekts', alt: 'Navigate to the project page' },
+    { key: 'projects', title: 'Projects', href: '/projects', alt: 'Navigate to the project page' },
     { key: 'blog', title: 'Blog', href: '/blog', alt: 'Navigate to the blog page' },
     { key: 'contact', title: 'Contact', href: '/contact', alt: 'Navigate to the contact page' },
     
@@ -11,8 +12,8 @@ const navigationPages = [
 function Header (props){
     return  (
     
-    <header
-    className="flex flex-row left-0 top-0 drop-shadow-bds pb-2 z-50">
+        <header
+        className="flex flex-row left-0 top-0 drop-shadow-bds pb-2 z-50">
             <div className="flex flex-row overflow-hidden mx-auto py-0 bg-slate-800 rounded border border-slate-700">
                 {navigationPages.map(page => {
                     const { title, href } = page
