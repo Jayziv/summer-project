@@ -17,7 +17,7 @@ export default function Post({frontmatter, content}) {
     var strippedContent = strippedContent.replace("]]", "' />")
 
     return <main className="w-2/3 flex flex-col align-middle justify-center self-auto mx-auto text-slate-300">
-       <div class="flex p-4 container-card justify-around">
+       <div className="flex p-4 container-card justify-around">
         <img className="w-60 h-60 border border-solid border-slate border-slate-700" src={bannerImage}/>
         <div className="pl-3">
           <h1 className="font-bold text-4xl mb-2 mx-auto">{title}</h1>
