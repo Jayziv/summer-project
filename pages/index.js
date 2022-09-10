@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import { user } from '../configs/user'
 
 export default function Home() {

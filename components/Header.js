@@ -13,8 +13,8 @@ function Header (props){
     return  (
     
         <header
-        className="flex flex-row left-0 top-0 drop-shadow-bds pb-2 z-50">
-            <div className="flex flex-row overflow-hidden mx-auto py-0 bg-slate-800 rounded border border-slate-700">
+        className="container-content mx-auto flex flex-row drop-shadow-bds mb-2 z-50 bg-slate-800 rounded border border-slate-700">
+           
                 {navigationPages.map(page => {
                     const { title, href } = page
 
@@ -26,7 +26,7 @@ function Header (props){
                         {title}</a>
                     </Link>
                 })}
-            </div>       
+            
         </header>
     )
 }

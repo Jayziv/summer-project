@@ -1,7 +1,11 @@
 @tailwind base;
 @tailwind components;
+.container-content{
+  @apply w-full lg:w-2/3;
+}
+
 .container-card {
-  @apply container mx-auto gap-1 overflow-hidden py-4 bg-slate-800 rounded border-solid border border-slate-700 px-2;
+  @apply container mx-auto gap-1 px-2 py-4 overflow-hidden rounded bg-slate-800 border border-solid  border-slate-700 ;
 }
 
 .grid-1234 {
@@ -9,7 +13,7 @@
 }
 
 .image-card-p-2 {
-  @apply cursor-pointer bg-slate-700 text-white inline-block rounded overflow-hidden border hover:border border-transparent hover:border-slate-600 m-4;
+  @apply inline-block m-4 overflow-hidden cursor-pointer rounded bg-slate-700 text-white border border-transparent hover:border hover:border-slate-600  ;
 }
 @tailwind utilities;
 
