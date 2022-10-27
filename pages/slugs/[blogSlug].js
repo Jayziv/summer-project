@@ -6,12 +6,12 @@ import rehypeRaw from "rehype-raw";
 // The page for each post
 export default function Post({ frontmatter, content }) {
   var { title, author, category, date, bannerImage, tags } = frontmatter;
-  var bannerImageStripped = bannerImage.replace("![[", "/obsidian/images/");
+  var bannerImageStripped = bannerImage.replace("![[", "/BlogVault/images/");
   var bannerImageStripped = bannerImageStripped.replace("]]", "");
   var bannerImage = bannerImageStripped;
   var strippedContent = content.replace(
     "![[",
-    "<img className='w-2/3 mx-auto my-4 border border-solid border-slate border-slate-700' src='/obsidian/images/"
+    "<img className='w-2/3 mx-auto my-4 border border-solid border-slate border-slate-700' src='/BlogVault/images/"
   );
   var strippedContent = strippedContent.replace("]]", "' />");
 
@@ -61,11 +61,11 @@ export default function Post({ frontmatter, content }) {
 // Generating the paths for each post
 export async function getStaticPaths() {
   // Get list of all files from our posts directory
-  const files = fs.readdirSync("public/obsidian/articles");
+  const files = fs.readdirSync("public/BlogVault/articles");
   // Generate a path for each one
   const paths = files.map((fileName) => ({
     params: {
-      slug: fileName.replace(".md", ""),
+      blogSlug: fileName.replace(".md", ""),
     },
   }));
   // return list of paths
@@ -76,9 +76,9 @@ export async function getStaticPaths() {
 }
 
 // Generate the static props for the page
-export async function getStaticProps({ params: { slug } }) {
+export async function getStaticProps({ params: { blogSlug } }) {
   const fileName = fs.readFileSync(
-    `public/obsidian/articles/${slug}.md`,
+    `public/BlogVault/articles/${blogSlug}.md`,
     "utf-8"
   );
   var { data: frontmatter, content } = matter(fileName);

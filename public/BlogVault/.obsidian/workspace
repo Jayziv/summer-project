@@ -1,0 +1,144 @@
+{
+  "main": {
+    "id": "2d6c32601a336240",
+    "type": "split",
+    "children": [
+      {
+        "id": "aca9bec5a018c530",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "articles/16-10-202.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4bca81c0c11114ce",
+    "type": "split",
+    "children": [
+      {
+        "id": "c0fa7005a6222136",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9ccecf4b6d41e555",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "0ba0c03b8c617a05",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c72d783805ba2415",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "a53e83f448b19a7a",
+    "type": "split",
+    "children": [
+      {
+        "id": "7089a601785cf38a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6f687b5f9d8c1937",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "articles/16-10-202.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c60af5ac5107642b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "articles/16-10-202.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "dc6abde3d9a3b3ec",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "30fd598e1b5b1bfc",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "articles/16-10-202.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "aca9bec5a018c530",
+  "lastOpenFiles": [
+    "articles/27-08-2022.md",
+    "articles/16-10-202.md",
+    "articles/14-08-2022.md",
+    "templates/-Template-Article.md",
+    "images/dalle-4.png",
+    "images/dalle-3.png",
+    "articles/13-08-2022.md",
+    "articles/07-08-2022.md",
+    "images/dalle-2.png",
+    "articles/10-08-2022.md"
+  ]
+}
