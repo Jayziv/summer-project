@@ -13,7 +13,7 @@ export default function Blog({posts}){
             <h1>This is the blog page</h1>
             <p>I&rsquo;ve built this to act as my own CMS so I can create notes in my preferred note taking software to help crystalise things I&rsquo;m learning.</p>
             <p>There are clear bugs in how this is done currently and you&rsquo;ll see them littering my posts - I plan to address them, but who knows, I might not :)</p>
-            <p>If you like this approach you can copy pretty much the whole repo at <a href="https://github.com/Jayziv/summer-project" target="_blank" className='underline' rel="noopener">https://github.com/Jayziv/summer-project</a></p>
+            <p>If you like this approach you can copy pretty much the whole repo at <a href="https://github.com/Jayziv/summer-project" target="_blank" className='underline' rel="noreferrer">https://github.com/Jayziv/summer-project</a></p>
         </div>
        
         {reversedPosts.map(post => {
