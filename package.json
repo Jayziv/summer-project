@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@types/react": "^18.0.17",
+    "@vercel/analytics": "^0.1.2",
     "autoprefixer": "^10.4.8",
     "gray-matter": "^4.0.3",
     "markdown-it": "^13.0.1",
