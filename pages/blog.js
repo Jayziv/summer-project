@@ -11,8 +11,8 @@ export default function Blog({posts}){
     return <main className="container-card grid-1234">
         <div className="text-slate-50">
             <h1>This is the blog page</h1>
-            <p>I've built this to act as my own CMS so I can create notes in my preferred note taking software to help crystalise things I'm learning.</p>
-            <p>There are clear bugs in how this is done currently and you'll see them littering my posts - I plan to address them, but who knows, I might not :)</p>
+            <p>I&rsquo;ve built this to act as my own CMS so I can create notes in my preferred note taking software to help crystalise things I&rsquo;m learning.</p>
+            <p>There are clear bugs in how this is done currently and you&rsquo;ll see them littering my posts - I plan to address them, but who knows, I might not :)</p>
             <p>If you like this approach you can copy pretty much the whole repo at <a href="https://github.com/Jayziv/summer-project" target="_blank" className='underline'>https://github.com/Jayziv/summer-project</a></p>
         </div>
        
