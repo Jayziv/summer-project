@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "0bc912bb06e9f6cd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "articles/to do.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "articles/29-10-2022.md",
+                "file": "articles/to do.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "articles/29-10-2022.md",
+                "file": "articles/to do.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "articles/29-10-2022.md"
+                "file": "articles/to do.md"
               }
             }
           }
@@ -148,17 +160,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "6125fde8714af76c",
+  "active": "0bc912bb06e9f6cd",
   "lastOpenFiles": [
+    "articles/29-10-2022.md",
+    "articles/to do.md",
+    "templates/-Template-Article.md",
     "articles/27-10-2022.md",
     "articles/08-08-2022.md",
     "articles/07-08-2022.md",
     "articles/05-08-2022.md",
     "articles/13-08-2022.md",
     "articles/27-08-2022.md",
-    "articles/29-10-2022.md",
-    "templates/-Template-Article.md",
-    "Untitled.md",
-    "articles/16-10-202.md"
+    "Untitled.md"
   ]
 }
