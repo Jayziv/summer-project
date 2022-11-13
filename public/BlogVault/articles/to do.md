@@ -8,6 +8,8 @@ tags:
     - TODO
 ---
 
+**Investigate react-string-replace** might be a better fix to replacing images in my blog posts with ![[]] https://github.com/iansinnott/react-string-replace
+
 **Investigate GSAP** (GreenSock Animation Platform) - seems very powerful, come across before but jogged my memory when a job specification desired exposure to this technology - loving animation worth a looksie
 
 **Build portfolio designed**
