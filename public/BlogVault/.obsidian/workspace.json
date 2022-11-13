@@ -4,35 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "5b9483b7f104d91b",
+        "id": "efd82a645c171017",
         "type": "tabs",
         "children": [
           {
-            "id": "d68c02b01420a27c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "templates/-Template-Article.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6125fde8714af76c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "articles/29-10-2022.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0bc912bb06e9f6cd",
+            "id": "f4f6e3d919e88a75",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -43,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -160,17 +135,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "0bc912bb06e9f6cd",
+  "active": "f4f6e3d919e88a75",
   "lastOpenFiles": [
-    "articles/29-10-2022.md",
+    "images/Pasted image 20221113025740.png",
     "articles/to do.md",
     "templates/-Template-Article.md",
+    "13-11-2022.md",
+    "articles/29-10-2022.md",
     "articles/27-10-2022.md",
     "articles/08-08-2022.md",
     "articles/07-08-2022.md",
     "articles/05-08-2022.md",
-    "articles/13-08-2022.md",
-    "articles/27-08-2022.md",
-    "Untitled.md"
+    "articles/13-08-2022.md"
   ]
 }
