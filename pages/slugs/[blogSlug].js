@@ -16,18 +16,18 @@ export default function Post({ frontmatter, content }) {
   var strippedContent = strippedContent.replace("]]", "' />");
 
   return (
-    <main className="container-content flex flex-col align-middle justify-center self-auto mx-auto text-slate-300">
-      <div className="flex p-4 container-card justify-around">
+    <main className="container-content mx-auto flex flex-col justify-center self-auto align-middle text-slate-300">
+      <div className="container-card flex justify-around p-4">
         <img
-          className="w-60 h-60 border border-solid border-slate border-slate-700"
+          className="border-slate h-60 w-60 border border-solid border-slate-700"
           src={bannerImage}
         />
         <div className="pl-3">
-          <h1 className="font-bold text-4xl mb-2 mx-auto">{title}</h1>
-          <h2 className="text-xl mb-2 ">
+          <h1 className="mx-auto mb-2 text-4xl font-bold">{title}</h1>
+          <h2 className="mb-2 text-xl ">
             Written by: {author} || Creation date: {date}
           </h2>
-          <h3 className="pb-6 border-b border-solid border-slate border-slate-700">
+          <h3 className="border-slate border-b border-solid border-slate-700 pb-6">
             Category: {category} Tags: {tags.join()}
           </h3>
         </div>
@@ -42,7 +42,7 @@ export default function Post({ frontmatter, content }) {
           ),
           p: ({ node, ...props }) => <p className="my-3">{props.children}</p>,
           pre: ({ node, ...props }) => (
-            <pre className="bg-slate-900 border border-solid border-slate border-slate-700 rounded p-4 my-2">
+            <pre className="border-slate my-2 rounded border border-solid border-slate-700 bg-slate-900 p-4">
               {props.children}
             </pre>
           ),
