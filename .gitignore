@@ -29,6 +29,10 @@ yarn-error.log*
 .env*.local
 gitignore/*
 
+# secret for GSAP
+.npmrc
+
+
 # vercel
 .vercel
 
