@@ -39,11 +39,11 @@ export default function Layout() {
       <div className="shapes-container">
         <div
           id="v-shape-l"
-          className="vshape pointer-events-none absolute block h-screen w-screen origin-top-left rotate-45 overflow-hidden border bg-slate-400 text-blue-400"
+          className="vshape pointer-events-none absolute block h-screen w-screen origin-top-left rotate-45 overflow-hidden border drop-shadow text-blue-400"
         ></div>
         <div
           id="v-shape-r"
-          className="vshape pointer-events-none absolute block h-screen w-screen origin-top-right -rotate-45 overflow-hidden border bg-slate-400"
+          className="vshape pointer-events-none absolute block h-screen w-screen origin-top-right -rotate-45 overflow-hidden border drop-shadow"
         ></div>
       </div>
 
