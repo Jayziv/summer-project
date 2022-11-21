@@ -17,6 +17,32 @@
 }
 @tailwind utilities;
 
+.jns-card {
+  @apply border border-solid;
+  background-color: #111827;
+  border-color: #334155;
+
+  &:hover{
+    background-color: #1f2937;
+  }
+}
+
+
+
+
+#btn-mellon {
+  border-color: #334155;
+  &:hover{
+    background-color: #1f2937;
+  }
+ 
+}
+
+header .navigation-links:nth-of-type(3){
+  z-index: 29;
+}
+
+
 html,
 body,
 #__next {
@@ -38,7 +64,7 @@ body,
 }
 
 .shapes-container {
-  margin-top: 400px;
+ 
   position: absolute;
 }
 
@@ -51,8 +77,11 @@ a {
   box-sizing: border-box;
 }
 
-#vshape::before {
-  background-color: red;
+#v-shape- {
+  &l,&r  {
+    height:100vh;
+    width:100vw;
+  }
 }
 
 /* @media (prefers-color-scheme: dark) {

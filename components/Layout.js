@@ -1,70 +1,73 @@
-import Link from "next/link";
-import Image from "next/image";
+import Content from "./Content.js";
 import { gsap } from "gsap";
 import { CSSRulePlugin } from "gsap/dist/CSSRulePlugin";
-import Logo from ".//../images/JNS-Logo.svg";
+
 import { useLayoutEffect } from "react";
-import Header from "./Header";
+import Navigation from "./Navigation";
 import Footer from "./Footer";
 
 gsap.registerPlugin(CSSRulePlugin);
 
 export default function Layout() {
-  // useLayoutEffect(() => {
-  //   const lShape = "#v-shape-l";
-  //   const rShape = "#v-shape-r";
-  //   const tl = gsap.timeline({ defaults: { ease: "back", duration: 2 } });
+  useLayoutEffect(() => {
+    const lShape = "#v-shape-l";
+    const rShape = "#v-shape-r";
+    const diamondShape = "header .navigation-links";
 
-  //   tl.to(
-  //     lShape,
-  //     {
-  //       x: -500,
-  //     },
-  //     1
-  //   );
+    const tl = gsap.timeline({ defaults: { ease: "back", duration: 2 } });
 
-  //   tl.to(
-  //     rShape,
-  //     {
-  //       x: 500,
-  //     },
-  //     "<"
-  //   );
+    tl.to(
+      lShape,
+      {
+        x: -500,
+      },
+      1
+    );
 
-  //   return () => {};
-  // }, []);
+    tl.to(
+      rShape,
+      {
+        x: 500,
+      },
+      "<"
+    );
+    tl.from(
+      diamondShape,
+      {
+        y: 300,
+      },
+      1
+    );
+
+    tl.to(
+      diamondShape,
+      {
+        y: 0,
+        stagger: {
+          each: 0.2,
+          from: "center",
+        },
+      },
+      "<"
+    );
+
+    return () => {};
+  }, []);
 
   return (
     <div className="home-container">
-      <div className="shapes-container">
+      <div className="shapes-container z-50">
         <div
           id="v-shape-l"
-          className="vshape pointer-events-none absolute block h-screen w-screen origin-top-left rotate-45 overflow-hidden border drop-shadow text-blue-400"
+          className="vshape jns-card pointer-events-none absolute block origin-top-left rotate-45 overflow-hidden text-blue-400 drop-shadow"
         ></div>
         <div
           id="v-shape-r"
-          className="vshape pointer-events-none absolute block h-screen w-screen origin-top-right -rotate-45 overflow-hidden border drop-shadow"
+          className="vshape jns-card pointer-events-none absolute block origin-top-right -rotate-45 overflow-hidden drop-shadow"
         ></div>
       </div>
-
-      <div className="container mx-auto text-white">
-        <div className="">
-          <div className="mt-12 mb-8 flex justify-center">
-            <Image className="" src={Logo} alt="Logo" width={140} height={80} />
-          </div>
-          <h2 className="mt-6 text-center text-7xl font-semibold leading-8">
-            Developer.
-          </h2>
-          <h2 className="text-center text-5xl italic leading-tight">Design.</h2>
-          <h2 className="text-center text-4xl font-thin leading-6">Digital.</h2>
-        </div>
-
-        <div>
-          <p className="thetween my-4 text-center font-semibold text-white">
-            eqwe
-          </p>
-        </div>
-      </div>
+      <Content />
+      <Navigation />
     </div>
   );
 }

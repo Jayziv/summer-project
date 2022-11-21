@@ -32,7 +32,6 @@ gitignore/*
 # secret for GSAP
 .npmrc
 
-
 # vercel
 .vercel
 
