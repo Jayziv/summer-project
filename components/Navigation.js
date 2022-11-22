@@ -27,7 +27,7 @@ function Navigation(props) {
             <Link href={href} key={title}>
               <a className="text-lg font-bold text-white">{title}</a>
             </Link>
-            <div className="jns-card absolute top-24 -left-3/4 z-10 flex h-80 w-80 -rotate-45 cursor-pointer bg-red-300"></div>
+            <div className="jns-card absolute top-32 -left-full z-10 flex h-96 w-96 -rotate-45 cursor-pointer bg-red-300"></div>
           </div>
         );
       })}

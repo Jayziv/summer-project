@@ -10,12 +10,14 @@ gsap.registerPlugin(CSSRulePlugin);
 
 export default function Layout() {
   useLayoutEffect(() => {
-    const lShape = "#v-shape-l";
-    const rShape = "#v-shape-r";
-    const diamondShape = "header .navigation-links";
+  const lShape = "#v-shape-l";
+  const rShape = "#v-shape-r";
+  const diamondShape = "header .navigation-links";
+  const heroContent = "#hero-content";
+  var button = typeof document !== 'unrefined' && document.querySelector("#btn-mellon");
 
-    const tl = gsap.timeline({ defaults: { ease: "back", duration: 2 } });
-
+  function curtains() {
+    let tl = gsap.timeline({ defaults: { ease: "back", duration: 2 } });
     tl.to(
       lShape,
       {
@@ -23,7 +25,6 @@ export default function Layout() {
       },
       1
     );
-
     tl.to(
       rShape,
       {
@@ -31,25 +32,30 @@ export default function Layout() {
       },
       "<"
     );
-    tl.from(
+    tl.fromTo(
       diamondShape,
       {
+        delay: .5,
         y: 300,
       },
-      1
-    );
-
-    tl.to(
-      diamondShape,
       {
+        duration: 2.5,
         y: 0,
         stagger: {
-          each: 0.2,
+          each: 0.1,
           from: "center",
         },
-      },
-      "<"
-    );
+      }
+    ); // build scene 1
+    return tl;
+  }
+
+  let master = gsap.timeline();
+  master.add(curtains());
+   
+  button.addEventListener("click", function(){
+    master.play();
+  });
 
     return () => {};
   }, []);
