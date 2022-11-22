@@ -14,7 +14,7 @@ export default function Layout() {
   const rShape = "#v-shape-r";
   const diamondShape = "header .navigation-links";
   const heroContent = "#hero-content";
-  var button = typeof document !== 'unrefined' && document.querySelector("#btn-mellon");
+  var button = typeof document !== 'undefined' && document.querySelector("#btn-mellon");
 
   function curtains() {
     let tl = gsap.timeline({ defaults: { ease: "back", duration: 2 } });
