@@ -23,7 +23,6 @@ export default function Layout() {
       {
         x: -500,
       },
-      1
     );
     tl.to(
       rShape,
@@ -35,23 +34,36 @@ export default function Layout() {
     tl.fromTo(
       diamondShape,
       {
-        delay: .5,
+        
         y: 300,
       },
       {
-        duration: 2.5,
+        delay: .23,
         y: 0,
         stagger: {
           each: 0.1,
           from: "center",
         },
-      }
-    ); // build scene 1
+      },
+      "<"
+    );
+    tl.fromTo(
+      heroContent,
+      {
+        x: 30,
+      },
+      {
+        x: 0,
+        opacity:1,
+      },
+    );
+    // build scene 1
     return tl;
   }
 
   let master = gsap.timeline();
   master.add(curtains());
+  master.pause();
    
   button.addEventListener("click", function(){
     master.play();
