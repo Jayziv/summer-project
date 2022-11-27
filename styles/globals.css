@@ -21,6 +21,7 @@
   @apply border border-solid;
   background-color: #111827;
   border-color: #334155;
+  
 
   &:hover {
     background-color: #1f2937;
@@ -34,10 +35,15 @@
   }
 }
 
-header .navigation-links{
+header .navigation-links {
   opacity: 0;
   &:nth-of-type(3) {
     z-index: 29;
+  }
+
+  .navigation-shape{
+    height: 600px;
+    width: 600px;
   }
 }
 
@@ -56,14 +62,7 @@ body,
   overflow: hidden;
 }
 
-#glasses {
-  width: 300px;
-  height: 200px;
-
-  span {
-    width: 100% !important;
-    height: 100% !important;
-  }
+.glasses-container{
 
   .eyes{
     height:20px;
@@ -71,18 +70,47 @@ body,
     background-color: white;
     border-radius:100%;
   }
+  
+  #glasses {
+    width: 300px;
+    height: 200px;
+  
+    span {
+      width: 100% !important;
+      height: 100% !important;
+    }
+  }
 }
 
 .home-container {
   height: 100%;
   width: 100%;
+
+  .shapes-container {
+    position: absolute;
+    height:100vh;
+    width:100%;
+  
+
+    #v-shape- {
+      &l,
+      &r {
+        height: 1200px;
+        width: 1800px;
+      }
+    
+      &l {
+        left: 0;
+        
+      }
+      &r {
+        right: 0;
+      }
+    }
+  }
 }
 
-.shapes-container {
-  position: absolute;
-  height:100vh;
-  width:100%;
-}
+
 
 a {
   color: inherit;
@@ -91,23 +119,6 @@ a {
 
 * {
   box-sizing: border-box;
-}
-
-#v-shape- {
-  &l,
-  &r {
-    height: 600px;
-    width: 1400px;
-    top: 300px;
-  }
-
-  &l {
-    left: 0;
-    
-  }
-  &r {
-    right: 0;
-  }
 }
 
 .header-content {

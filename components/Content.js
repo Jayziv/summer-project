@@ -4,23 +4,23 @@ import Logo from ".//../images/JNS-Logo.svg";
 function Content(props) {
   return (
     <div className="container relative mx-auto text-white">
-      <div className="glasses-container">
+      <div className="glasses-container relative">
+        <div className="eyes absolute"></div>
+        <div className="eyes absolute"></div>
         <div id="glasses" className="mx-auto mt-12 mb-8 flex justify-center">
-          <div className="eyes"></div>
-          <div className="eyes"></div>
-          <Image className="" src={Logo} alt="Logo" className="logo" />
+          <Image src={Logo} alt="Logo" className="logo" priority />
         </div>
       </div>
-      
+
       <div id="hero-content" className="relative">
         <h2 className="header-content mt-6 text-center text-7xl font-semibold leading-8">
           Developer.
         </h2>
         <h2 className="header-content text-center text-6xl italic leading-tight">
-          Design.
+          Designer.
         </h2>
         <h2 className="header-content text-center text-5xl font-thin leading-6">
-          Digital.
+          Digitalist.
         </h2>
       </div>
 

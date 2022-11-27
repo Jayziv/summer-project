@@ -18,16 +18,19 @@ const navigationPages = [
 
 function Navigation(props) {
   return (
-    <header id="navigation" className="fixed z-40 flex w-full justify-center text-center bottom-100">
+    <header
+      id="navigation"
+      className="bottom-100 fixed z-40 flex w-full justify-center text-center"
+    >
       {navigationPages.map((page) => {
         const { title, href } = page;
 
         return (
-          <div className="navigation-links relative z-30 w-32">
-            <Link href={href} key={title}>
+          <div className="navigation-links relative z-30 w-32" key={title}>
+            <Link href={href}>
               <a className="text-lg font-bold text-white">{title}</a>
             </Link>
-            <div className="jns-card absolute top-32 -left-full z-10 flex h-96 w-96 -rotate-45 cursor-pointer bg-red-300"></div>
+            <div className="navigation-shape jns-card absolute top-40 left-1/2 z-10 flex -translate-x-1/2 -rotate-45 cursor-pointer bg-red-300"></div>
           </div>
         );
       })}
