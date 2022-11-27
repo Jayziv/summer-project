@@ -64,10 +64,11 @@ export default function Layout() {
       tl.fromTo(
         diamondShape,
         {
-          y: 300,
+          y: 70,
         },
         {
           delay: 0.23,
+          opacity:1,
           y: 0,
           stagger: {
             each: 0.1,
@@ -108,6 +109,7 @@ export default function Layout() {
 
   return (
     <div className="home-container relative" suppressHydrationWarning={true}>
+      
       <div
         id="shapes-container"
         className="shapes-container container pointer-events-none absolute left-1/2 z-50 flex -translate-x-1/2 justify-center"
