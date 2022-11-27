@@ -4,9 +4,14 @@ import Logo from ".//../images/JNS-Logo.svg";
 function Content(props) {
   return (
     <div className="container relative mx-auto text-white">
-      <div id="glasses" className="mx-auto mt-12 mb-8 flex justify-center">
-        <Image className="" src={Logo} alt="Logo" className="logo" />
+      <div className="glasses-container">
+        <div id="glasses" className="mx-auto mt-12 mb-8 flex justify-center">
+          <div className="eyes"></div>
+          <div className="eyes"></div>
+          <Image className="" src={Logo} alt="Logo" className="logo" />
+        </div>
       </div>
+      
       <div id="hero-content" className="relative">
         <h2 className="header-content mt-6 text-center text-7xl font-semibold leading-8">
           Developer.
