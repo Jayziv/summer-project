@@ -50,11 +50,13 @@ function Animations(props) {
         display: "none",
         opacity: 0,
         y: 100,
-      });
+      },
+      "start");
       tl.to(heroContent, {
         duration: 0.1,
         display: "block",
-      });
+      },
+      "start");
       tl.to(
         lShape,
         {
@@ -83,7 +85,7 @@ function Animations(props) {
             from: "start",
           },
         },
-        "3"
+        "1"
       );
       tl.fromTo(
         diamondShape,
