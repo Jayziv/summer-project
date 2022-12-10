@@ -8,7 +8,7 @@ const navigationPages = [
     { key: 'projects', title: 'Projects', href: '/projects', alt: 'Navigate to the project page' },
     { key: 'blog', title: 'Blog', href: '/blog', alt: 'Navigate to the blog page' },
     { key: 'contact', title: 'Contact', href: '/contact', alt: 'Navigate to the contact page' },
-    
+    { key: 'elves', title:'Elves', href:'/projects/adventOfCode/elfsnacks', alt:'Navigate to the Elves '},
 ]
 
 function Header (props){
