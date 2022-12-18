@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "baseUrl": "src",
+        "paths": {
+            "@advent": ["projects/adventOfCode/*"],
+            "@projects": ["projects/*"],
+            "@components": ["components/*"],
+        }
+    },
+    "exclude": ["node_modules"]
+}
