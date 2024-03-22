@@ -1,0 +1,18 @@
+/* styles/EyesInGlasses.module.css */
+.frame {
+  width: 80px; /* Glasses frame width */
+  height: 30px; /* Glasses frame height */
+  margin: 0 4px; /* Space between frames */
+  background-color: transparent; /* Frame color */
+
+  overflow: hidden; /* Prevents the eyes from breaking out of the frame */
+  position: relative;
+}
+
+.eye {
+  width: 6px; /* Eye size */
+  height: 6px;
+  border-radius: 9999px; /* Make it round */
+  background-color: white; /* Eye color */
+  position: absolute;
+}

@@ -1,0 +1,10 @@
+.eye {
+  width: 20px; /* Small circle size */
+  height: 20px;
+  border-radius: 9999px; /* Make it round */
+  background-color: blue; /* Circle color */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
