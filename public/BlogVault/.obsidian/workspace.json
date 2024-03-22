@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "articles/to do.md",
+                "file": "articles/22-03-2024.md",
                 "mode": "source",
                 "source": false
               }
@@ -64,6 +64,14 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "94ab7342976181b2",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
@@ -85,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "articles/to do.md",
+                "file": "articles/22-03-2024.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "articles/to do.md",
+                "file": "articles/22-03-2024.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "articles/to do.md"
+                "file": "articles/22-03-2024.md"
               }
             }
           }
@@ -135,17 +143,36 @@
     "direction": "horizontal",
     "width": 300
   },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
   "active": "f4f6e3d919e88a75",
   "lastOpenFiles": [
+    "articles/16-10-2022.md",
+    "images/Pasted image 20221030015735.png",
     "images/Pasted image 20221113025740.png",
-    "articles/to do.md",
-    "templates/-Template-Article.md",
-    "13-11-2022.md",
-    "articles/29-10-2022.md",
+    "images/Pasted image 20240322041606.png",
+    "articles/22-03-2024.md",
     "articles/27-10-2022.md",
+    "articles/to do.md",
+    "articles/27-08-2022.md",
+    "articles/13-08-2022.md",
+    "articles/10-08-2022.md",
     "articles/08-08-2022.md",
     "articles/07-08-2022.md",
-    "articles/05-08-2022.md",
-    "articles/13-08-2022.md"
+    "articles/14-08-2022.md",
+    "images/Pasted image 20240322041451.png",
+    "templates/-Template-Article.md",
+    "articles/Untitled.md",
+    "13-11-2022.md",
+    "articles/29-10-2022.md",
+    "articles/05-08-2022.md"
   ]
 }

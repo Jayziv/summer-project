@@ -1,4 +1,4 @@
 export const user = {
     userName: 'Jay Nicol-Smith',
-    occupation: 'Web Developer + Designer',
+    occupation: 'Front End Developer + Designer and UXpert',
 };
